@@ -79,7 +79,6 @@
 
         .geocoder {
         position: absolute;
-        
         /* z-index: 1;
         width: 50%;
         /* left: 50%; */
@@ -91,7 +90,21 @@
         min-width: 100%;
      
     }
-  }
+
+  /* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .map-overlay {
+        width: 90%;
+        max-width: none;
+        left: 5%;
+        right: 5%;
+    }
+
+    #legend {
+        top: auto;
+        bottom: 10px;
+    }
+}
     </style>
 
   </head>
