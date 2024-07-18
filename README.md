@@ -7,13 +7,17 @@ The project utilizes two main data sources:
 1. NYC Health Coronavirus Data
 
 Source: NYC Health GitHub Repository
+
 File: now-transmission-by-uhf42.csv
+
 Description: This file contains the 7-day rate of confirmed and probable COVID-19 cases per 100,000 people, for the most recent day of data, by UHF42 neighborhood.
 
+Link: https://github.com/nychealth/coronavirus-data/
 
 2. New York Times Extremely Detailed Map of NYC
 
 Source: NYT Interactive NYC Neighborhood Map
+
 Description: This data provides detailed neighborhood boundaries for New York City.
 
 
